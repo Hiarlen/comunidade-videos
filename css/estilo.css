@@ -1,0 +1,182 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #06d6a0;
+
+}
+
+
+	
+
+/***** Layout *****/
+
+#area-cabecalho{
+	background-color: #0077b6;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-logo{
+	background-color: #0077b6;
+	padding: 20px;
+	text-align: center;
+}
+
+#area-login{
+	background-color: #118ab2;
+	width: 350px;
+	margin: 0 auto;
+	float: none;
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+#area-menu{
+	padding: 10px;
+	color: black;
+	text-align: center;
+}
+
+.login{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #118ab2;
+	text-align: center;
+}
+
+
+.ac_box {
+	width: 337px;
+	text-align: center;
+}
+
+.ac_box_top { 
+	border-bottom: none; 
+	margin-left: 2px; 
+	height: 7px; 
+	width: 323px;
+}
+.ac_box_cont {
+	height: 340px; 
+	padding: 5px 5px;
+	}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #023e8a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #00b4d8;
+}
+
+.button:hover {background-color: #48cae4}
+
+.button:active {
+  background-color: #48cae4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.esquerda{
+	padding: 20px 400px;
+	text-align: left;
+}
+.pd{
+	padding: 5px 30px;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #ccc;
+}
+
+
+/***** formatação de menu *****/
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: #fff;
+	padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+	color: #f7b600;
+	background: #fff;
+	text-decoration: none;
+}
+
+
+	/*****formatação geral *****/
+
+h1{
+	color: #000000;
+	padding: 10px;
+	font-size: 70px;
+}
+
+h2{
+	color: #000000;
+	padding: 10px;
+	font-size: 40px;
+}
+
+h3{
+	color: #000000;
+	margin: 15px;
+	font-size: 30px;
+}
+
+h4{
+	color: #000000;
+	margin: 15px;
+	font-size: 20px;
+}
+
+.branco{
+	color: white;
+}
+
+.vermelho{
+	color: red;
+}
+
+.caixa{
+	color: #a3b18a;
+}
+
+.texto{
+	color: #000000;
+	padding: 1px 10px;
+	font-size: 15px;
+}
+
